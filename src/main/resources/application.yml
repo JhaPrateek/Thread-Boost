@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+threadpool:
+  core-size: 10
+  max-size: 50
+  queue-capacity: 200
+  keep-alive: 60
+
+spring:
+  application:
+    name: thread-boost
